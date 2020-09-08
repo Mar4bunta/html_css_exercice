@@ -1,0 +1,220 @@
+@import "font.css";
+
+body{
+    font-size: 1em;
+    font-family: "AtlasGrotesk","Open Sans",sans-serif;
+    color: #47525d;
+}
+h1, h2, h3, h4{
+    font-weight: normal;
+}
+/* --------------------------------------------------*/
+.bigRow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.mainTitle{
+    font-size: 1.8em;
+    margin-top:40px;
+}
+/* --------------------------------------------------*/
+.billedPeriod{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+/* --------------------------------------------------*/
+.card{
+    border-radius: 0px;
+    height: 425px;
+    position: relative;
+}
+.card-header:first-child{
+    border-radius: 0px;
+}
+.card-header{
+    background-color: #f4faff;
+    display: flex;
+    border-bottom: transparent;
+}
+.headerBlue{
+    color: white;
+    background-color: #0071E0;
+}
+.titleCard{
+    font-size: 1.4em;
+    margin: 5px;
+}
+.globalCardHeader{
+    padding-bottom: 40px;
+}
+.card-title{
+    font-size: 3em;
+    margin: 5px;
+    font-weight: 200;
+}
+.sousCard-title{
+    color:  #47525de6;
+}
+.card-body{
+    padding: 20px 25px 0px;
+    font-size: 0.9em;
+    color:  #47525de6;
+}
+.cardFooter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    color:  #47525de6;
+}
+.btn{
+    padding: 8px 60px;
+    margin: auto;
+}
+.footerLink{
+    padding-top: 12px;
+    color:  #47525d;
+}
+.bestV{
+    position: absolute;
+    top: -20px;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #99C6F3;
+    color: white;
+    font-weight: bold;
+    font-size: 0.85em;
+    text-align: center;
+}
+/* -------------------------------------------- */
+.listeRow{
+    margin-top: 40px;
+    font-size: 1em;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+li{
+    padding: 5px;
+}
+.middleUi{
+    border-left: solid #DFDFDF 1px;
+    border-right: solid #DFDFDF 1px;
+}
+.boldLi{
+    font-weight: bold;
+}
+.fa{
+    color: #1D81E2;
+}
+.fa-check{
+    margin-right: 5px;
+}
+/* ------------------------------------------------------ */
+.titreSec3{
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.sousTitreSec3{
+    font-size: 1.2em;
+    padding: 20px 0 20px; 
+    margin-right: 70px;
+}
+.pSec3{
+    font-size: 1em;
+    margin-right: 70px;
+    font-weight: lighter;
+}
+/* ----------------------------------------*/
+.quote{
+    background-color: #F6F9FC;
+    height: 20%;
+    padding: 88px 0px;
+    margin-top: 55px;
+}
+.quoteLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quoteQuote{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 1.1em;
+    font-weight: 300;
+}
+.Chris{
+    font-size: 0.9em;
+}
+/* --------------------------------------------------------- */
+.divFreeButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+}
+.titleFreeButton,  .freeButton{
+    font-weight: 300;
+}
+.freeButton{
+    padding: 10px 20px;
+    margin: 25px 0;
+}
+/* ---------------------------------------------------------- */
+.rowFooter{
+    padding-bottom: 10%;
+    border-bottom: solid 1px #DFDFDF;
+    color: #637282;
+    padding-top: 15px;
+}
+.footerTitle{
+    font-size: 1.2em;
+}
+.footerUl{
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+.paddingLi{
+    padding: 0px;
+}
+/* -------------------------------------------------------------------- */
+.rowLogoLang{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.logoMedia{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+.btnLang{
+    background-color: transparent;
+    padding: 0;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #666666;
+}
+.btnLang:hover{
+    text-decoration: underline;
+}
+.globeArrow{
+    color: #B1B9C1;
+    height: 20px;
+    width: 20px;
+}
+.arrow{
+    font-size: 12px;
+}
