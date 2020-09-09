@@ -1,0 +1,62 @@
+.underligne{
+    text-decoration: underline;
+}
+/* ------------------------------------- */
+.rowHeader{
+    background-image:
+        linear-gradient(black, black),
+        url(../img/bg1.png);
+    background-size: cover;
+    background-blend-mode: saturation;
+}
+.navBarre{
+    width: 100%;
+    display: flex;
+    padding: 47px;
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: none;
+}
+.navLeft{
+    display: flex;
+    align-items: center;
+}
+.bluez{
+    width: 110px;
+}
+.navRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40%;
+}
+.navButton{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    border: transparent 2px;
+}
+.blueHome{
+    border: solid 2px #4BCAFF;
+    color: #4BCAFF;
+} 
+/* ------------------------------------- */
+.headerQuote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 187px 0;
+    font-size: 2em;
+    color: white;
+}
+.quoteStyle{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/* ------------------------------------- */
+.containerServices{
+    background-color: #4BCAFF;
+    color: white;
+}
+.servicesContent{
+    padding: 100px 0;
+}
