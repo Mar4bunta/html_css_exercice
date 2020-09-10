@@ -1,6 +1,4 @@
-.underligne{
-    text-decoration: underline;
-}
+
 /* ------------------------------------- */
 .rowHeader{
     background-image:
@@ -8,26 +6,24 @@
         url(../img/bg1.png);
     background-size: cover;
     background-blend-mode: saturation;
+    height: 100vh;
 }
 .navBarre{
     width: 100%;
     display: flex;
-    padding: 47px;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
-    filter: none;
 }
 .navLeft{
     display: flex;
     align-items: center;
-}
-.bluez{
-    width: 110px;
+    padding: 0;
 }
 .navRight{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-right: 40%;
+    padding: 0;
 }
 .navButton{
     text-decoration: none;
@@ -35,17 +31,13 @@
     padding: 0 10px;
     border: transparent 2px;
 }
-.blueHome{
-    border: solid 2px #4BCAFF;
-    color: #4BCAFF;
-} 
 /* ------------------------------------- */
 .headerQuote{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 187px 0;
+    padding: 180px 0;
     font-size: 2em;
     color: white;
 }
@@ -58,5 +50,199 @@
     color: white;
 }
 .servicesContent{
-    padding: 100px 0;
+    padding: 50px 0;
+}
+.descr{
+    font-size: 0.7em;
+}
+/* ------------------------------------- */
+.navPfolio{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+    margin: 0;
+    color: #626F76;
+}
+.navFolioLeft{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.navFolioRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+.pfolioButton{
+    text-decoration: none;
+    color: #626F76;
+}
+.FolioImgGrp{
+    padding: 50px 0;
+}
+.folioImg{
+    width: 270px;
+    height: 270px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.folImg1{
+    background-image: url(../img/folio1.png);
+}
+.folImg2{
+    background-image: url(../img/folio2.png);
+}
+.folImg3{
+    background-image: url(../img/folio3.png);
+}
+.folImg4{
+    background-image: url(../img/folio4.png);
+}
+.folImg5{
+    background-image: url(../img/folio5.png);
+}
+.folImg6{
+    background-image: url(../img/folio6.png);
+}
+.folImg7{
+    background-image: url(../img/folio7.png);
+}
+.folImg8{
+    background-image: url(../img/folio8.png);
+}
+.rowImgBottom{
+    padding-top: 30px;
+}
+/* ------------------------------------- */
+.containerDefaultSection{
+    background-color: #515F67;
+    color: white;
+}
+.rowVideoText{
+    padding: 50px 0;
+}
+.visitMeButton{
+    color: #353F46;
+    border: solid #353F46 2px;
+    border-radius: 0;
+}
+.vimeo{
+    width: 540px;
+    height: 260px;
+}
+/* ------------------------------------- */
+.contFldTwitter{
+    color: white;
+    background-color: #4BCAFF;
+}
+.contTwitter{
+    padding: 50px 0;
+}
+.twitterTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.twitterDesc{
+    width: 60%;
+}
+/* ------------------------------------- */
+.bg2{
+    background-image: url(../img/bg2.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.doeContFluid{
+    background-color: rgba(53, 63, 71, 0.5);
+    height: 80vh;
+    color: white;
+    padding: 80px 0;
+}
+.doeCol{
+    padding-left: 0;
+}
+.doePara{
+    padding: 20px 0;
+}
+.doeIcone{
+    border: solid 2px white;
+    font-size: 30px;
+    padding: 20px;
+    margin-right: 10px;
+}
+/* ------------------------------------- */
+.testimonials{
+    background-color: white;
+    color: #353F46;
+    height: 25vh;
+    margin: 100px 0;
+    padding: 50px;
+}
+.bitterQuote{
+    font-size: 72px;
+}
+.testiTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testiPara{
+    margin-right: 110px;
+}
+.wWhite{
+    color: #4BCAFF;
+}
+/* ------------------------------------- */
+.bg3{
+    margin-top: 150px;
+    background-image: url(../img/bg3.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.containerFlForm{
+    color: white;
+    height: 80vh;
+    background-color: rgba(53, 63, 71, 0.5);
+    padding: 50px 0;
+
+}
+.formId{
+    padding: 0;
+}
+.form-control{
+    border: solid white 2px;
+    border-radius: 0px;
+    background-color: transparent;
+}
+.formButton{
+    border: none;
+    color: white;
+    background-color: #4BCAFF;
+    padding: 10px 120px;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------- */
+.blueButton{
+    border: solid 2px #4BCAFF;
+    color: #4BCAFF;
+    padding: 0px 10px;
+} 
+.underligne{
+    text-decoration: underline;
+}
+h3, h4, .pfolioButton, .quoteStyle, .navButton, .formPolice{
+    text-transform: uppercase;
+}
+.boldMe{
+    font-weight: bold;
 }
