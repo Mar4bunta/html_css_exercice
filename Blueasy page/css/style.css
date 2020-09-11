@@ -2,10 +2,8 @@
 /* ------------------------------------- */
 .rowHeader{
     background-image:
-        linear-gradient(black, black),
-        url(../img/bg1.png);
+    url(../img/bg1.png);
     background-size: cover;
-    background-blend-mode: saturation;
     height: 100vh;
 }
 .navBarre{
@@ -150,16 +148,20 @@
     width: 60%;
 }
 /* ------------------------------------- */
-.bg2{
+/* .bg2{
     background-image: url(../img/bg2.png);
     background-position: center; 
     background-repeat: no-repeat;
 }
-.doeContFluid{
-    background-color: rgba(53, 63, 71, 0.5);
+ */.doeContFluid{
     height: 80vh;
     color: white;
     padding: 80px 0;
+
+    background-image: url(../img/bg2.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+
 }
 .doeCol{
     padding-left: 0;
@@ -196,17 +198,21 @@
     color: #4BCAFF;
 }
 /* ------------------------------------- */
-.bg3{
+/* .bg3{
     margin-top: 150px;
     background-image: url(../img/bg3.png);
     background-position: center; 
     background-repeat: no-repeat;
 }
-.containerFlForm{
+ */.containerFlForm{
     color: white;
     height: 80vh;
-    background-color: rgba(53, 63, 71, 0.5);
     padding: 50px 0;
+
+    margin-top: 150px;
+    background-image: url(../img/bg3.png);
+    background-position: center; 
+    background-repeat: no-repeat;
 
 }
 .formId{
